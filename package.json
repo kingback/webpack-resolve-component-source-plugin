@@ -1,0 +1,40 @@
+{
+  "name": "webpack-resolve-component-source-plugin",
+  "version": "1.0.0",
+  "description": "Component source resolver plugin of webpack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingback/webpack-resolve-component-source-plugin.git"
+  },
+  "keywords": [
+    "resolve",
+    "resolver",
+    "source",
+    "component",
+    "webpack",
+    "plugin"
+  ],
+  "author": "ningzbruc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingback/webpack-resolve-component-source-plugin/issues"
+  },
+  "homepage": "https://github.com/kingback/webpack-resolve-component-source-plugin#readme",
+  "dependencies": {
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "@ali/rxpi-env": "^1.1.1",
+    "jest": "^26.6.1",
+    "webpack": "^4.0.0"
+  }
+}
