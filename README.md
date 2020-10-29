@@ -131,7 +131,7 @@ Exclude packages.
 new WebpackResolveComponentSourcePlugin({
   exclude: 'full/path/file.js',
   exclude: ['full/path/file.js', 'full/path/file2.js'],
-  exclude: /\rax-/,
+  exclude: /\/rax-/,
   exclude(path, request) {
     return /\/rax-/.test(path);
   }
